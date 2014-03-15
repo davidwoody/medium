@@ -61,3 +61,5 @@ The "width" key takes a percentage as its value.
 
 The "border" and "collapsed" keys can be set to either true or false. 
 
+Note: the "context" template helper name does not have to be called "context". It can be anything you like, as long as the name you put in the {{#with}} block helper and the template helper matches.
+
