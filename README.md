@@ -7,7 +7,7 @@ Add your Medium.com profile or a collection to any Meteor template in seconds.
 
 Navigate to your projects directory in Terminal: 
 ```
-cd PROJECTDIRECTORY
+cd PROJECT_DIRECTORY
 ```
 
 Add this package: 
