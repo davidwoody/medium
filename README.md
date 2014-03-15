@@ -5,20 +5,40 @@ Add your Medium.com profile or a collection to any Meteor template in seconds.
 
 ###Add package to your project
 
-- Navigate to your projects directory in Terminal: cd PROJECTDIRECTORY
-- Add this package: mrt add medium
+- Navigate to your projects directory in Terminal: 
+```
+cd PROJECTDIRECTORY
+```
+
+- Add this package: 
+```
+mrt add medium
+```
 
 ###Add Medium template
 
-- Add the medium template to your template: {{>medium}}
-- Wrap the medium template in a {{#with}} block helper: {{#with}} {{>medium}} {{/with}}
-- Give the {{#with}} block helper a context: {{#with context}}
-- Add a template helper with 
+- Add the medium template to your template: 
+```
+<template name="YOURTEMPLATE">
+  {{>medium}}
+</template>
+```
+
+- Wrap the medium template in a {{#with}} block helper and give it a context: 
+``` 
+<template name="YOURTEMPLATE">
+  {{#with context}}
+    {{>medium}}
+  {{/with}}
+</template>
+```
+
+- Add a context template helper that returns an object for the {{#with}} block helper: 
 
 Example: 
 
 ```
-Template.YOURTEMPLATENAME.helpers({
+Template.YOURTEMPLATE.helpers({
   context: function(){
     return {
       type: "m-profile",
