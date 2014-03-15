@@ -4,6 +4,5 @@
   "homepage": "https://github.com/davidwoody/medium",
   "author": "David Woody (t: @davidjwoody)",
   "version": "0.1.0",
-  "git": "https://github.com/davidwoody/medium.git",
-  "packages": {}
+  "git": "https://github.com/davidwoody/medium.git"
 }

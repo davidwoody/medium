@@ -3,7 +3,5 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use("templating", "client");
-
-  api.add_files(["medium.html", "medium.js"], "client");
+  api.add_files('medium.js', 'client');
 });
