@@ -2,7 +2,7 @@
   "name": "medium",
   "description": "Add your Medium.com profile or a collection to any Meteor template in seconds.",
   "homepage": "https://github.com/davidwoody/medium",
-  "author": "David Woody @davidjwoody",
+  "author": "David Woody",
   "version": "0.1.1",
   "git": "https://github.com/davidwoody/medium.git"
 }
